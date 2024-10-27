@@ -1,0 +1,98 @@
+<!-- Html5 Declaration -->
+<!DOCTYPE html>
+<html>
+<!-- Style: Internal, External, Inline -->
+<head>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function myFunction() {
+          alert("You clicked the coffee cup!");
+        }
+    </script>
+
+    <style>
+/*  class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page */
+        .background{
+            background-color: tomato;
+        }
+        p{
+            border: 2px solid rgb(182, 230, 176);
+            padding: 30px;
+        }
+    </style>
+</head>
+<body class="background">
+    
+    <div>
+        <h1 style="color:red;">Hello World</h1>
+        <img src="Tehsable.com-minion.gif" alt="Computer Man" style="float:right;width:100px;height:100px;" >
+    </div>
+
+    <div>
+    <p style="font-family:verdana;">Starting</p>
+    <strong>This text is important!</strong>
+    <p>My favorite color is <del>violet</del> orange.</p>
+<!-- Area is used to click linked to images  -->
+    <map name="workmap">
+        <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+    </map>
+    </div>
+
+    <div>
+<!-- Target Attribute: 
+    _self - Default & same tab
+    _blank - new tab
+    _parent - open in parent frame
+    _top - open in full body of the window
+-->
+        <a href="https://www.infosys.com/" target="_blank">Infosys</a>
+
+<!-- preserves both spaces and line breaks -->
+        <pre>
+Shwetha
+            Atchu;
+
+            Priya
+        </pre>
+
+<!-- Marking abbreviations gives useful information to browsers,search-engines. -->
+        <abbr title="Structured query language">SQL</abbr>
+    </div>
+    <div>
+    <img src="infy.jpg" alt="Infosys" width="40" height="20">
+    </div>
+    
+    <table>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+</body>
+</html>
